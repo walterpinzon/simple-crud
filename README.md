@@ -1,2 +1,2 @@
 # simple-crud
-A functional crud in a few lines of code. 
+A functional CRUD in a few lines of code of PHP, MariaDB and Bootstrap.
