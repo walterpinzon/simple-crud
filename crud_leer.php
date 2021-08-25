@@ -30,7 +30,7 @@
     }
     
     
-    $query = 'SELECT * FROM `requerimientos` WHERE `ID`='.$buscado.' ORDER BY `ID` DESC';
+    $query = 'SELECT * FROM `' . $tabla . '` WHERE `ID`='.$buscado.' ORDER BY `ID` DESC';
     $result = mysqli_query($link, $query) or die('Consulta1 fallida: ' . mysqli_error());
 	$line = mysqli_fetch_array($result, MYSQLI_ASSOC);
 	echo "<div class=\"container-fluid\"><div class=\"card shadow\"><div class=\"card-body\">";
